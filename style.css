@@ -1,0 +1,102 @@
+body {
+    background-image: url(./library/new_college_rendering_2_2017.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: rgb(219, 218, 228);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    
+}
+
+h1, h2, p {
+    text-align: center;
+    
+}
+
+h2 {
+    background-color: rgba(21, 174, 201, 0.767);
+}
+
+p {
+    font-size: larger;
+}
+
+.form-space {
+    width: 60vw;
+    background-color: rgba(22, 21, 21, 0.76);
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 500px;
+    min-width: 300px;
+}
+
+hr {
+    height: 2px;
+    background-color: rgb(212, 197, 197);
+    border-color: rgb(212, 197, 197);
+  }
+
+.bottom-line {
+    margin-bottom: 35px;
+}
+
+.middle-line {
+    background-color: transparent;
+    border: none;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+fieldset {
+    border: none;
+}
+
+#black {
+    background-color: black;
+}
+
+#red {
+    background-color: red;
+    color: black;
+}
+
+.inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+}
+
+input[type="submit"] {
+    display: block;
+    height: 2em;
+    margin: 1em auto;
+    background-color: white;
+}
+
+label {
+    display: block;
+    margin: 0.5rem 0;
+}
+
+input[type="number"] {
+    margin: 10px 0 0 0;
+    min-height: 2em;
+    display: block;
+}
+
+input[type="text"], input[type="email"], textarea, select {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+}
+
+textarea {
+    resize: none;
+}
+/*
+
+*/
+
+
+

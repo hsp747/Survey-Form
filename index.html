@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form-space">
+        <header>
+            <img src="./library/shit-logo-2020-hd.png">
+            <h1 id="title">Foil Hat Society</h1>
+            <p id="description"><em>Please amuse us with your details in the survey below</em></p>
+        </header>
+        <hr>
+        <form id="survey-form">
+            <fieldset>
+                <h2>Personal Details</h2>
+                    <label id="name-label" for="name"> Government Name: <input id="name" type="text" name="name" required placeholder="For survey purposes ofcourse..."></label>
+                    <label id="email-label" for="email">That disappointing email address you have: <input id="email" type="email" name="email" required placeholder="Yes, that one!"></label> 
+                    <label id="number-label" for="number">Age...Just your age: <input id="number" type="number" name="number" required min="21" max="120"></label> 
+                    
+                <h2>Choices</h2> 
+                    <label for="drowpdown">Who told you about us? 
+                        <select id="dropdown">
+                            <option>Select One</option>
+                            <option>Online Web Surfing </option>
+                            <option>That one friend...</option>
+                            <option>One of your followers was shouting about it in a Waffle House</option>
+                        </select>
+                    </label> 
+
+                    <hr class="middle-line">
+
+                    <label>What is your online situation?</label>
+                        <label><input type="radio" name="radio-button" class="inline" id="anonymous">Anonymous</label>
+                        <label><input type="radio" name="radio-button" class="inline" id="well-known">Well-Known</label>
+
+                    <hr class="middle-line">
+
+                    <label>Choose some areas of interest</label>
+                        <Label><input type="checkbox" class="radio" value="1" name="check">Foil Hat Folding </Label>
+                        <Label><input type="checkbox" class="radio" value="1" name="check">Conspiracy 101 </Label>
+                        <Label><input type="checkbox" class="radio" value="1" name="check">Chemistry </Label>
+                        <Label><input type="checkbox" class="radio" value="1" name="check">Soap Making </Label> 
+
+                    <hr class="middle-line">
+
+                        <label for="comments">Anything else you wish to learn? 
+                            <textarea name="comments" id="comments" rows="3" cols="20" placeholder="Like seriously we have everything" ></textarea>
+                        </label>
+               
+            </fieldset>
+            
+            <hr class="bottom-line">
+
+            <label for="t-c"><b id="black">We</b> want the <b id="red">truth</b> and if <b id="black">you</b> think we can <b id="red">handle the truth</b> then select <b id="black">the box</b> and click <b id="red">"submit"</b> 
+            <input type="checkbox" id="t-c" required class="inline""></label>
+            <input type="submit" id="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>
